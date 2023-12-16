@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-bazanos-sava-заказ-e",
+  "editForm": "i-i-s-bazanos-sava-заказ-e",
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISBazanosSavaЗаказL",
+  "className": "ЗаказL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-bazanos-sava-заказ",
+      "modelProjection": "ЗаказL"
+    }
+  ]
+}

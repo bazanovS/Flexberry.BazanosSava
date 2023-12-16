@@ -1,0 +1,66 @@
+﻿{
+  "name": "IISBazanosSavaЕда",
+  "modelName": "i-i-s-bazanos-sava-еда",
+  "className": "Еда",
+  "nameSpace": "IIS.BazanosSava",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "продукты",
+      "relatedTo": "i-i-s-bazanos-sava-продукты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказ",
+      "relatedTo": "i-i-s-bazanos-sava-заказ",
+      "inverse": "еда"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЕдаE",
+      "modelName": "i-i-s-bazanos-sava-еда",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Продукты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 1
+            },
+            {
+              "name": "цена",
+              "caption": "Цена",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Продукты",
+          "name": "продукты",
+          "relatedTo": "i-i-s-bazanos-sava-продукты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

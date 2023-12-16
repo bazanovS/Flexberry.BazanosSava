@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Напитки",
+  "name": "IISBazanosSavaНапиткиE",
+  "className": "НапиткиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-bazanos-sava-напитки",
+      "modelProjection": "НапиткиE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-bazanos-sava-напитки-e",
+  "editForm": "i-i-s-bazanos-sava-напитки-e",
+  "external": false,
+  "caption": "Напитки",
+  "name": "IISBazanosSavaНапиткиL",
+  "className": "НапиткиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-bazanos-sava-напитки",
+      "modelProjection": "НапиткиL"
+    }
+  ]
+}

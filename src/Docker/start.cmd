@@ -1,0 +1,1 @@
+docker-compose -p bazanossava up -d
